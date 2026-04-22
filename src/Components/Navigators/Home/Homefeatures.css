@@ -1,0 +1,36 @@
+
+.featurepart .head{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.featurepart .head1 h4{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    background-color: #ff6f0f33;
+}
+.featurepart .head .head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featurepart .head h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px 10px;
+}
+.featurepart .designs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .featurepart .designs{
+        display: block;
+    }
+}

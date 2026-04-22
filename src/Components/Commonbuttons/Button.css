@@ -1,0 +1,50 @@
+button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+button i{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+.btn1{
+    background-color: #ff6f0f;
+    border: 2px solid #ff6f0f;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn1:hover:hover{
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+.btn1:hover:hover a{
+    color: #ff6f0f;
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+.btn2 a{
+    text-decoration: none;
+    color: #ff6f0f;
+}
+.btn2:hover{
+    background-color: #ff6f0f;
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+.btn2:hover a{
+    color: #fff;
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+.btn2{
+    background-color: transparent;
+    border: 2px solid #ff6f0f;
+    border-radius: 20px;
+    padding: 10px 20px;
+}

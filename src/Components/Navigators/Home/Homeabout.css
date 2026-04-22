@@ -1,0 +1,100 @@
+
+
+.aboutpart{
+    padding: 60px 40px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftpart{
+    padding: 20px 0;
+    margin: 10px 0;
+    width: 650px;
+    position: relative;
+}
+.leftpart img{
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+.leftpart img:nth-child(2){
+    position: absolute;
+    width: 300px;
+    top: 0;
+    right: 0;
+    padding: 5px 5px;
+    background-color: #fff;
+}
+.rightpart{
+    background-color: #94919115;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+}
+.rightpart h4{
+    border: 2px solid #ff6f0f;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    background-color: #ff6f0f33;
+}
+.rightpart h1{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.rightpart .outline{
+    border-bottom: 7px solid #ff6f0f;
+    background-color: #ff6f0f14;
+    border-radius: 10px;
+    padding: 20px;
+}
+.rightpart p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+}
+.click{
+    padding: 10px;
+    text-align: center;
+}
+button{
+    margin: 10px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .aboutpart {
+        display: block;
+        padding: 60px 0;
+        margin: 20px 0;
+    }
+    .leftpart,.rightpart{
+        width: 100%;
+    }
+    .leftpart img:nth-child(2){
+        width: 100px;
+    }
+    .leftpart img {
+        padding: 5px 10px;
+    }
+    .rightpart{
+        padding: 10px 10px;
+        margin: 10px 0;
+    }
+    .rightpart h1{
+        font-size: 20px;
+    }
+    .rightpart p{
+        font-size: 10px;
+        margin: 10px;
+    }
+    button{
+        margin: 10px;
+        width: 100%;
+    }
+}

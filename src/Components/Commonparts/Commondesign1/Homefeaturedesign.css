@@ -1,0 +1,60 @@
+
+.design1{
+    background-color: #15151507;
+    width: 400px;
+    margin: 10px 50px;
+    border-top: 6px solid #ff6f0f;
+    border-radius: 5px 5px 0 0;
+
+}
+.design1 .headdesign h4{
+    background-color: #ff6f0f;
+    width: 120px;
+    padding: 5px;
+    border-radius: 0 0 7px 7px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.design1 .headdesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.design1 img{
+    width: 100%;
+}
+.design1 h3{
+    text-align: center;
+    padding:30px 10px 10px 10px;
+    font-size: 23px;
+    font-weight: 500 ;
+}
+.design1 p{
+    padding: 5px 0px;
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.design1 .part1{
+    background-color: #ff6f0f20;
+    padding: 10px;
+    margin: 10px;
+}
+.design1 .part1 span{
+    padding: 40px;
+}
+.design1 .part1 .percentage progress{
+    width: 100%;
+}
+.design1 
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .design1{
+        width: inherit;
+        margin: 10px 10px;
+    }
+}

@@ -1,0 +1,105 @@
+.donatenow{
+    background-image: url("../../../Assets/Banner3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.donatenow .leftsidepart{
+    width: 600px;
+    color: #fff;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+.donatenow .leftsidepart h4{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 100px;
+    color: #ff6f0f;
+    text-align: center;
+    background-color: #ff6f0f33;
+}
+.donatenow .leftsidepart h1{
+    padding: 15px 0;
+    font-size: 45px;
+    font-weight: 800;
+}
+.donatenow .leftsidepart p{
+    padding: 30px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+.donatenow .rightsidepart{
+    width: 600px;
+    background-color: #fff;
+    height: 50vh;
+}
+.donatenow .rightsidepart .form{
+    padding: 35px;
+    text-align: center;
+}
+.donatenow .rightsidepart .form input{
+    width: 500px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2424241d;
+}
+.donatenow .rightsidepart .rate h4:hover{
+    border-style: none;
+    border-radius: 10px;
+}
+.donatenow .rightsidepart .rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.donatenow .rightsidepart .rate h4{
+    border: 1px solid #ff6f0f;
+    background-color: #ff6f0f37;
+    padding: 15px 70px;
+}
+.donatenow .rightsidepart .btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .donatenow{
+        display: block;
+        height: 100%;
+    }
+    .donatenow .leftsidepart{
+        width: inherit;
+    }
+    .donatenow .leftsidepart h1 {
+        font-size: 20px;
+    }
+    .donatenow .leftsidepart p {
+        font-size: 10px;
+    }
+    .donatenow .rightsidepart{
+        width: inherit;
+        height: inherit;
+    }
+    .donatenow .rightsidepart .rate h4 {
+        padding: 15px 30px;
+    }
+    .donatenow .rightsidepart .form input{
+        width: inherit;
+    }
+    .donatenow .rightsidepart .form {
+        padding: 25px;
+    }
+}

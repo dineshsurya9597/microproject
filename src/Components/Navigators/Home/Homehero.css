@@ -1,0 +1,42 @@
+
+
+.heropart{
+    padding: 60px 60px;
+    background-image: url('../../../Assets/banner1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herotopic{
+    background-color: #ff6f0f15;
+    width: 500px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+}
+.herotopic h1{
+    padding: 10px;
+    font-size: 30px;
+}
+.herotopic p{
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .heropart{
+        padding: 50px 0;
+        height: inherit;
+    }
+}
