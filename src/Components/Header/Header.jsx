@@ -13,7 +13,7 @@ export default class Header extends Component {
         </div>
         <div className="navigators">
             <ul>
-                <li><Link to={'/'}>Home</Link></li>
+                <li><Link to={'/'}>Home main</Link></li>
                 <li><Link to={'/About'}>About</Link></li>
                 <li><Link to={'/Causes'}>Causes</Link></li>
                 <li><Link to={'/Pages'}>Pages</Link></li>
