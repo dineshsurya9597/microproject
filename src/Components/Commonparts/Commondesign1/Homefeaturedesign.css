@@ -55,6 +55,6 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .design1{
         width: inherit;
-        margin: 10px 10px;
+        margin: 10px 0;
     }
 }
