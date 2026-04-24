@@ -1,0 +1,46 @@
+.profiles{
+    background-color: #00000015;
+    width: 350px;
+    height: 50vh;
+    margin: 20px 20px;
+    position: relative;
+}
+.profiles img{
+    width: 100%;
+}
+.profiles .profiletitle{
+    text-align: center;
+    padding: 10px 10px;
+}
+.profiles .profiletitle h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.profiles .profiletitle h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff6f0f;
+}
+.profiles .profiletitle .profileicons i{
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    color: #ff6f0f;
+    font-weight: 700;
+}
+.profiles .profiletitle .profileicons{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .profiles {
+        width: inherit;
+        height: inherit;
+        margin: 20px 0px;
+    }
+    .hometeamsec .teamprofiles {
+        display: block;
+    }
+}

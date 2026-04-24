@@ -34,10 +34,11 @@
     width: 600px;
 }
 .rightpart h4{
-    border: 2px solid #ff6f0f;
+    border: none;
     padding: 10px 15px;
     border-radius: 20px;
     width: 100px;
+    color: #ff6f0f;
     text-align: center;
     background-color: #ff6f0f33;
 }

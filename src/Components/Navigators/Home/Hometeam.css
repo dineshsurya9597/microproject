@@ -1,0 +1,27 @@
+.hometeamsec .hometeamhead1 h4{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 150px;
+    color: #ff6f0f;
+    text-align: center;
+    background-color: #ff6f0f33;
+}
+.hometeamsec .hometeamhead .hometeamhead1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hometeamsec .hometeamhead h1{
+    padding: 15px 0;
+    font-size: 45px;
+    font-weight: 800;
+}
+.hometeamsec .hometeamhead{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.hometeamsec .teamprofiles{
+    display: flex;
+}

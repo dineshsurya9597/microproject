@@ -8,7 +8,7 @@ export default function Homedonate() {
     <section className='donatenow'>
 
       <div className="leftsidepart">
-        <h4>About Us</h4>
+        <h4>Donate Now</h4>
         <h1>We Help People In Need Around <br />The World</h1>
         <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet <br />Jhon Doe, Founder</p>
       </div>
