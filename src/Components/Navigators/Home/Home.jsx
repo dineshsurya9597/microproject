@@ -5,7 +5,6 @@ import Homefeatures from './Homefeatures';
 import Homewhatwedo from './Homewhatwedo';
 import Homedonate from './Homedonate';
 import Hometeam from './Hometeam';
-import Hometestimonial from './Hometestimonial';
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       <Homewhatwedo/>
       <Homedonate/>
       <Hometeam/>
-      <Hometestimonial/>
     </div>
   )
 }
