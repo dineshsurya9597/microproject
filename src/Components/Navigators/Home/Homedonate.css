@@ -55,6 +55,7 @@
 .donatenow .rightsidepart .rate h4:hover{
     border-style: none;
     border-radius: 10px;
+    border: 1px solid #ff6f0f
 }
 .donatenow .rightsidepart .rate{
     display: flex;
@@ -63,7 +64,7 @@
     padding: 10px 10px;
 }
 .donatenow .rightsidepart .rate h4{
-    border: 1px solid #ff6f0f;
+    border: none;
     background-color: #ff6f0f37;
     padding: 15px 70px;
 }
